@@ -1,6 +1,5 @@
 COPY student FROM '/Users/pkallas/Desktop/sql-exercises/data/students.csv' DELIMITERS ',' CSV HEADER;
-COPY 16
-sql_exercises=# SELECT * FROM student;
+
 id  |   name    | grade
 ------+-----------+-------
 1510 | Jordan    |     9

@@ -1,6 +1,5 @@
-sql_exercises=# CREATE TABLE student_like(liker_id INT, likee_id INT);
-CREATE TABLE
-sql_exercises=# \d student_like
+CREATE TABLE student_like(liker_id INT, likee_id INT);
+
   Table "public.student_like"
   Column  |  Type   | Modifiers
 ----------+---------+-----------

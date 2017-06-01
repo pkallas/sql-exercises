@@ -1,6 +1,5 @@
-sql_exercises=# CREATE TABLE student(id INT PRIMARY KEY, name TEXT, grade INT);
-CREATE TABLE
-sql_exercises=# \d student
+CREATE TABLE student(id INT PRIMARY KEY, name TEXT, grade INT);
+
     Table "public.student"
  Column |  Type   | Modifiers
 --------+---------+-----------

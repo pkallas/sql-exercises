@@ -1,6 +1,5 @@
 COPY friend FROM '/Users/pkallas/Desktop/sql-exercises/data/friends.csv' DELIMITERS ',' CSV HEADER;
-COPY 20
-sql_exercises=# SELECT * FROM friend;
+
  id1  | id2
 ------+------
  1510 | 1381
