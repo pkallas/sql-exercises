@@ -1,6 +1,5 @@
-sql_exercises=# COPY student_like FROM '/Users/pkallas/Desktop/sql-exercises/data/likes.csv' DELIMITERS ',' CSV HEADER;
-COPY 10
-sql_exercises=# SELECT * FROM student_like;
+COPY student_like FROM '/Users/pkallas/Desktop/sql-exercises/data/likes.csv' DELIMITERS ',' CSV HEADER;
+
  liker_id | likee_id
 ----------+----------
      1689 |     1709
