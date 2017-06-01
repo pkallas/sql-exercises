@@ -21,8 +21,7 @@ INSERT INTO videogamestore VALUES (11, "Mario Kart", "Switch", 68, 60);
 INSERT INTO videogamestore VALUES (12, "Final Fantasy", "PS4", 36, 40);
 INSERT INTO videogamestore VALUES (13, "Bravely Default", "3DS", 14, 20);
 INSERT INTO videogamestore VALUES (14, "Project Diva", "PS4", 3, 30);
-INSERT INTO videogamestore VALUES (15,
-"Battlefield One", "PC", 46, 60);
+INSERT INTO videogamestore VALUES (15, "Battlefield One", "PC", 46, 60);
 
 SELECT * FROM videogamestore ORDER BY price;
 
