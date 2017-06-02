@@ -2,12 +2,12 @@
 return that student's name and grade, and the name
 and grade of the student they like. */
 
-SELECT a.name, a.grade, b.name, b.grade FROM student_like
+SELECT a.name liker_name, a.grade liker_grade, b.name likee_name, b.grade likee_grade FROM student_like
   JOIN student a ON a.id = student_like.liker_id
   JOIN student b ON b.id = student_like.likee_id
   WHERE a.grade - 2 >= b.grade;
 
-  name | grade | name  | grade
-------+-------+-------+-------
- John |    12 | Haley |    10
+  liker_name | liker_grade | likee_name | likee_grade
+------------+-------------+------------+-------------
+ John       |          12 | Haley      |          10
 (1 row)
