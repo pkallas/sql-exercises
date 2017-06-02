@@ -120,7 +120,7 @@ SELECT title, MAX(domestic_money), MAX(overseas_money), MAX(worldwide) FROM top_
 SELECT title, MIN(domestic_money), MIN(overseas_money), MIN(worldwide) FROM top_movies GROUP BY title;
 SELECT title, MAX(domestic_money), MAX(overseas_money), MAX(worldwide), year FROM top_movies GROUP BY title HAVING year = 2012;
 SELECT title, MIN(domestic_money), MIN(overseas_money), MIN(worldwide), year FROM top_movies GROUP BY title HAVING year = 2012;
-SELECT COUNT(*),
+SELECT title, COUNT(*),
     CASE
         WHEN overseas_percent > 50 THEN "More revenue abroad than in the United States of America"
         WHEN overseas_percent < 50 THEN "More revenue in the United States of America than abroad"
