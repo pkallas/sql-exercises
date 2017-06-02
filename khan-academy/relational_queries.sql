@@ -94,3 +94,9 @@ SELECT authors.fullname, books.title FROM authors
 SELECT authors.fullname, information.age, information.genre FROM authors
     JOIN information
     ON information.person_id = authors.id;
+
+SELECT authors.id, fullname, title, genre, age FROM authors
+    JOIN information
+    ON information.person_id = authors.id
+    JOIN books
+    ON books.person_id = authors.id;
