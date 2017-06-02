@@ -26,3 +26,9 @@ INSERT INTO videogamestore VALUES (15, "Battlefield One", "PC", 46, 60);
 SELECT * FROM videogamestore ORDER BY price;
 
 SELECT SUM(amount) FROM videogamestore;
+
+SELECT name FROM videogamestore
+  WHERE name LIKE ('%S');
+
+SELECT * FROM videogamestore
+  WHERE price = 60 ORDER BY name;
