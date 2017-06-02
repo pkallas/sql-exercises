@@ -125,6 +125,6 @@ SELECT COUNT(*),
         WHEN overseas_percent > 50 THEN "More revenue abroad than in the United States of America"
         WHEN overseas_percent < 50 THEN "More revenue in the United States of America than abroad"
         Else "Same revenue domestic and overseas"
-    END as "Revenue_location"
+    END AS "Revenue_location"
 FROM top_movies GROUP BY "Revenue_location";
 SELECT * FROM top_movies WHERE worldwide > "$800" AND studio = "Sony" GROUP BY title;
